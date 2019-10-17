@@ -1,4 +1,4 @@
-hass: ![Travis branch](https://api.travis-ci.org/josemotta/IoT.Hass.Farm.svg?branch=master)
+'hass' ![Travis branch](https://api.travis-ci.org/josemotta/IoT.Hass.Farm.svg?branch=master)
 
 # IoT.Farm
 
