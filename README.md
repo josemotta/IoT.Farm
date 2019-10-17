@@ -2,4 +2,4 @@
 
 # IoT.Farm
 
-**An IoT hass farm for supervisory, control & data acquisition systems.**
+**An IoT Farm for supervisory, control & data acquisition systems.**
