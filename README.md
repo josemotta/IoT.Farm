@@ -16,9 +16,11 @@ A couple pumps work together to fill the water storage on the top of high tower:
 - A second fast-pump is responsible for moving the water from the intermediary tank to the big water storage placed on the high tower.
 - The fast-pump starts when the intermediary tank is full and stops when it is empty. The command logic for this synchronization is already set and is not being considered here now.
 
-The objective of this projecty is to gather info from big water tank to:
+The objective of this projecty is to gather info from big water tank, like the water line level shown below.
 
 ![castle-45-live super panel 2019-9-2 Influx-linha-dagua](https://user-images.githubusercontent.com/86032/67041426-06eb0080-f0fc-11e9-99d9-d4ad083cbfcb.png)
+
+Then apply algorithms to:
 
 - **measure water flow:** get real-time tank level using the [ToF (time of flight) sensor](https://github.com/josemotta/IoT.Hass.Farm/tree/master/_tank);
 - **extract seasonal data during the year:** how much time does it take to fill the [intermediary tank](https://github.com/josemotta/IoT.Hass.Farm/tree/master/_pump)?
