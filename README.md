@@ -16,7 +16,7 @@ A couple pumps work together to fill the water storage on the top of high tower:
 - A second fast-pump is responsible for moving the water from the intermediary tank to the big water storage placed on the high tower.
 - The fast-pump starts when the intermediary tank is full and stops when it is empty. The command logic for this synchronization is already set and is not being considered here now.
 
-Gathers info from big water tank and analyses the curve to:
+The objective of this projecty is to gather info from big water tank and analyses the curve to:
 
 ![castle-45-live super panel 2019-9-2 Influx-linha-dagua](https://user-images.githubusercontent.com/86032/67041426-06eb0080-f0fc-11e9-99d9-d4ad083cbfcb.png)
 
