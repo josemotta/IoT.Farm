@@ -12,7 +12,7 @@ The picture describes a typical process, detailed at [IoT.Hass.Farm](https://git
 
 A couple pumps work together to fill the water storage on the top of high tower:
 
-- The first stage is twenty five meters below surface in the well, powered by a thin-vertical-pump, located inside the plumbs. It pushes water to a small intermediary tank at surface level.
+- The first stage is twenty five meters below surface in the well, powered by a thin-vertical-pump, located inside the plumbs. It pushes water to a small intermediary tank, located at surface level.
 - A second fast-pump is responsible for moving the water from the intermediary tank to the big water storage placed on the high tower.
 - The fast-pump starts when the intermediary tank is full and stops when it is empty. The command logic for this synchronization is already set and is not being considered here now.
 
