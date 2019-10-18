@@ -4,7 +4,19 @@
 
 **An IoT Farm for supervisory, control & data acquisition systems.**
 
-Gathers info from tank and analyses the curve to:
+## Water Process
+
+The picture describes a typical process that pumps water from well and fills a big water storage placed on a high tower. The plumbing connects to water points located on the near buildings, equipped with secondary water tanks that are filled by gravity and should also be monitored.
+
+![](https://i.imgur.com/4fRKJ5g.jpg)
+
+A couple pumps work together to fill the water storage on the top of high tower:
+
+- The first stage is twenty five meters below surface in the well, powered by a thin-vertical-pump, located inside the plumbs. It pushes water to a small intermediary tank at surface level.
+- A second fast-pump is responsible for moving the water from the intermediary tank to the big water storage placed on the high tower.
+- The fast-pump starts when the intermediary tank is full and stops when it is empty. The command logic for this synchronization is already set and is not being considered here now.
+
+Gathers info from big water tank and analyses the curve to:
 
 ![castle-45-live super panel 2019-9-2 Influx-linha-dagua](https://user-images.githubusercontent.com/86032/67041426-06eb0080-f0fc-11e9-99d9-d4ad083cbfcb.png)
 
