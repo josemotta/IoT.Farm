@@ -6,7 +6,7 @@
 
 ## Water Process
 
-The picture describes a typical process that pumps water from well and fills a big water storage placed on a high tower. The plumbing connects to water points located on the near buildings, equipped with secondary water tanks that are filled by gravity and should also be monitored.
+The picture describes a typical process, detailed at [IoT.Hass.Farm](https://github.com/josemotta/IoT.Hass.Farm), that pumps water from well and fills a big water storage placed on a high tower. The plumbing connects to water points located on the near buildings, equipped with secondary water tanks that are filled by gravity and should also be monitored.
 
 ![water-process-2](https://user-images.githubusercontent.com/86032/67102821-84654e00-f19a-11e9-92ec-f38b84c0cd15.png)
 
